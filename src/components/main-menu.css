@@ -1,0 +1,10 @@
+@media (orientation: landscape) {
+    nav.neogelkNav {
+        width: 12rem; /* Adjust as needed */
+        height: 100vh;
+        top: 0;
+        left: 0;
+        bottom: auto;
+        flex-direction: column;
+    }
+}

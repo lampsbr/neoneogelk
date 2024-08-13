@@ -1,4 +1,4 @@
-import MainFooter from "@/components/main-footer";
+import MainMenu from "@/components/main-menu";
 import { auth } from "@/lib/auth/auth";
 
 export default async function Home() {
@@ -7,7 +7,7 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>main content</div>
-      <MainFooter />
+      <MainMenu />
     </main>
   );
 }
